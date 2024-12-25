@@ -16,14 +16,42 @@
             </select>
         </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Sign Up</a></li>
-        </ul>
-    </nav>
+
+
+
+
+    
+    <div class="nebula-wrap">
+        <!-- Логотип -->
+        <div class="cosmo-logo">Exclusive</div>
+        
+        <!-- Навигационные ссылки -->
+        <div class="stellar-links">
+          <a href="#" class="orbit-active">Home</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+          <a href="#">Sign Up</a>
+        </div>
+    
+        <!-- Поисковая строка -->
+        <div class="galaxy-search">
+          <input type="text" placeholder="What are you looking for?">
+          <button><img src="./images/search-bar.png" alt="Search" width="16"></button>
+        </div>
+    
+        <!-- Иконки -->
+        <div class="asteroid-icons">
+          <i><img src="./images/wishlist.png" alt="Wishlist" width="16"></i>
+          <i><img src="./images/cart.png" alt="Cart" width="16"></i>
+        </div>
+      </div>
+
+
+
+
+
+
+
     <div class="sidebar">
         <ul>
             <li><a href="">Woman's Fashion</a></li>
@@ -39,9 +67,9 @@
     </div>
     <div class="main-content">
         <div class="slider">
-            <img src="https://www.apple.com/newsroom/videos/videos-2024/autoplay/2024/09/apple-iphone-16-pro-light-and-durable-upgraded-design/posters/Apple-iPhone-16-Pro-light-and-durable-upgraded-design-240909.jpg.large_2x.jpg" alt="">
+            <img class="big-iphone" src="./images/iphone-add.png" alt="">
             <div class="slider-content">
-                <h1>iPhone 14 Series</h1>
+                <h1><img class="small-iphone" src="./images/1200px-Apple_gray_logo 1.png" alt=""><span>iPhone 14 Series</span></h1>
                 <p>Up to 10% off Voucher</p>
                 <a href="">Shop Now</a>
             </div>
@@ -95,21 +123,46 @@
 </div>
 <hr class="half_line">
 
-    <div class="category-section">
-        <h2>Browse By Category</h2>
-        <div class="category-grid">
-            <div class="category-box"><img class="mini-png-categories" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTa5XCfv8xMN-foe-kM4ZVUeiywvVCJG2GbQ&s" alt=""><p>Phones</p></div>
-            <div class="category-box"><img class="mini-png-categories" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTa5XCfv8xMN-foe-kM4ZVUeiywvVCJG2GbQ&s" alt=""><p>Computers</p></div>
-            <div class="category-box"><img class="mini-png-categories" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTa5XCfv8xMN-foe-kM4ZVUeiywvVCJG2GbQ&s" alt=""><p>SmartWatch</p></div>
-            <div class="category-box active"><img class="mini-png-categories" src="https://i.pinimg.com/736x/44/85/cc/4485cc7fc0fcd39486354f37e9e44ddd.jpg" alt=""><p>Camera</p></div>
-            <div class="category-box"><img class="mini-png-categories" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTa5XCfv8xMN-foe-kM4ZVUeiywvVCJG2GbQ&s" alt=""><p>HeadPhones</p></div>
-            <div class="category-box"><img class="mini-png-categories" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTa5XCfv8xMN-foe-kM4ZVUeiywvVCJG2GbQ&s" alt=""><p>Gaming</p></div>
-        </div>
-        <div class="navigation-arrows">
-            <button>&larr;</button>
-            <button>&rarr;</button>
-        </div>
+<div class="outer-shell">
+    <div class="headline-banner">Pick Your Gadget</div>
+    <div class="flex-grid">
+      <input type="radio" name="gadget-category" id="gadget-phones" class="invisible-toggle">
+      <label for="gadget-phones" class="clickable-box">
+        <img src="./images/Category-CellPhone.png" alt="Phones">
+        Phones
+      </label>
+
+      <input type="radio" name="gadget-category" id="gadget-computers" class="invisible-toggle">
+      <label for="gadget-computers" class="clickable-box">
+        <img src="./images/Category-Computer.png" alt="Computers">
+        Computers
+      </label>
+
+      <input type="radio" name="gadget-category" id="gadget-smartwatch" class="invisible-toggle">
+      <label for="gadget-smartwatch" class="clickable-box">
+        <img src="/images/Category-SmartWatch.png" alt="SmartWatch">
+        SmartWatch
+      </label>
+
+      <input type="radio" name="gadget-category" id="gadget-camera" class="invisible-toggle" checked>
+      <label for="gadget-camera" class="clickable-box">
+        <img src="./images/Category-Camera.png" alt="Camera">
+        Camera
+      </label>
+
+      <input type="radio" name="gadget-category" id="gadget-headphones" class="invisible-toggle">
+      <label for="gadget-headphones" class="clickable-box">
+        <img src="./images/Category-Headphone.png" alt="HeadPhones">
+        HeadPhones
+      </label>
+
+      <input type="radio" name="gadget-category" id="gadget-gaming" class="invisible-toggle">
+      <label for="gadget-gaming" class="clickable-box">
+        <img src="./images/Category-Gamepad.png" alt="Gaming">
+        Gaming
+      </label>
     </div>
+  </div>
 
     <hr class="half_line">
     <section class="flash-sales">
@@ -149,7 +202,7 @@
         
         <div class="jbl-content">
             <div class="all-jbl">
-                <img src="https://st4.depositphotos.com/9904426/40604/i/450/depositphotos_406049386-stock-photo-baku-azerbaijan-2020-jbl-flip.jpg" alt="">
+                <img src="./images/boombox.png" alt="">
                 <div class="all-jbl-content">
                     <p class="Categories_jbl">Categories</p>
                     <h1>Enhance Your Music Experience</h1>
@@ -174,57 +227,59 @@
  
         <div class="products-all">
             <div class="product">
-                <img class="all-item-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8Htx6jAosnjJPCYNATAfTq7ycj9eV6KPQ6xitboKOVU5IXziO" alt="">
-                <h3>The north coat</h3>
+                <img class="all-item-img" src="./images/dog-food.png" alt="">
+               <div class="product-txt">
+                <h3>Breed Dry Dog Food</h3>
                 <p class="price">$260 <span class="old-price">$360</span></p>
-                <h4>⭐⭐⭐⭐⭐ (65)</h4>
+                <h4>⭐⭐⭐★★ (35)</h4>
+            </div>
             </div>
             <div class="product">
                 <div class="img-add-to-cart">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNPVmRhb_4x_yg_4RrJpX-rv8w3aw3pIR1_vblJO_WZ9uGw_9" alt="">
+                    <img src="./images/camera.png" alt="">
                     <div class="add-to-cart">Add To Cart</div>
                     </div>
-                <h3>Gucci duffle bag</h3>
+                <h3>CANON EOS DSLR Camera</h3>
                 <p class="price">$960 <span class="old-price">$1160</span></p>
                 <h4>⭐⭐⭐⭐★ (65)</h4>
                
             </div>
             <div class="product">
                 <div class="backgorund-color-products"></div>
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcVcOaBip26gyot5TmXcttNxpFI3nw0vUPZ7ZTJM9RIoGDxyOZ" alt="">
-                <h3>RGB liquid CPU</h3>
+                <img src="./images/computer.png" alt="">
+                <h3>ASUS FHD Gaming Laptop</h3>
                 <p class="price">$160 <span class="old-price">$170</span></p>
-                <h4>⭐⭐⭐⭐★ (65)</h4>
-            </div>
-            <div class="product">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROAd6F_nAp1Mf1MY5bTIBqVI1U5yCtz9G9ZLODuNGc7HbBwiZl" alt="">
-                <h3>Small BookSelf</h3>
-                <p class="price">$375 <span class="old-price">$400</span></p>
                 <h4>⭐⭐⭐⭐⭐ (65)</h4>
             </div>
             <div class="product">
-                <img class="all-item-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8Htx6jAosnjJPCYNATAfTq7ycj9eV6KPQ6xitboKOVU5IXziO" alt="">
-                <h3>The north coat</h3>
+                <img src="./images/cream.png" alt="">
+                <h3>Curology Product Set </h3>
+                <p class="price">$375 <span class="old-price">$400</span></p>
+                <h4>⭐⭐⭐⭐★ (65)</h4>
+            </div>
+            <div class="product">
+                <img class="all-item-img" src="./images/car.png" alt="">
+                <h3>Kids Electric Car</h3>
                 <p class="price">$260 <span class="old-price">$360</span></p>
                 <h4>⭐⭐⭐⭐⭐ (65)</h4>
             </div>
             <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNPVmRhb_4x_yg_4RrJpX-rv8w3aw3pIR1_vblJO_WZ9uGw_9" alt="">
-                <h3>Gucci duffle bag</h3>
+                <img src="./images/adidas-shoes.png" alt="">
+                <h3>Jr. Zoom Soccer Cleats</h3>
                 <p class="price">$960 <span class="old-price">$1160</span></p>
-                <h4>⭐⭐⭐⭐★ (65)</h4>
+                <h4>⭐⭐⭐⭐⭐ (35)</h4>
             </div>
             <div class="product">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcVcOaBip26gyot5TmXcttNxpFI3nw0vUPZ7ZTJM9RIoGDxyOZ" alt="">
-                <h3>RGB liquid CPU</h3>
+                <img src="./images/xbox-gamepad.png" alt="">
+                <h3>GP11 Shooter USB Gamepad</h3>
                 <p class="price">$160 <span class="old-price">$170</span></p>
-                <h4>⭐⭐⭐⭐★ (65)</h4>
+                <h4>⭐⭐⭐⭐⭐ (55)</h4>
             </div>
             <div class="product">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROAd6F_nAp1Mf1MY5bTIBqVI1U5yCtz9G9ZLODuNGc7HbBwiZl" alt="">
-                <h3>Small BookSelf</h3>
+                <img src="./images/jacket.png" alt="">
+                <h3>Quilted Satin Jacket</h3>
                 <p class="price">$375 <span class="old-price">$400</span></p>
-                <h4>⭐⭐⭐⭐⭐ (65)</h4>
+                <h4>⭐⭐⭐⭐⭐ (55)</h4>
             </div>
             
             
@@ -240,13 +295,41 @@
 </div>
 <h2 class="new-arrival">New Arrival</h2>
  
-<div class="all-ps-main">
-    <div class="all_img_main">
-<img class="ps-five" src="./images/ps_5.png" alt="">
-<img class="women_colection" src="./images/women_colection.png" alt="">
-<img class="speakers" src="./images/speakers.png" alt="">
-<img class="parfume" src="./images/perfume.png" alt="">
-</div>
+<div class="page">
+    <div class="grid-container">
+        <div class="grid-item section-ps5">
+            <img class="three-img-section" src="./images/ps5-slim-goedkope-playstation_large 1.png" alt="PlayStation 5">
+            <div class="content-box">
+                <h2>PlayStation 5</h2>
+                <p>Black and White version of the PS5 coming out on sale.</p>
+                <a class="shop-link" href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="grid-item section-women">
+            <img class="woman-img" src="./images/woma-with-hat.png" alt="Women's Collections">
+            <div class="content-box">
+                <h2>Women's Collections</h2>
+                <p>Featured woman collections that give you another vibe.</p>
+                <a class="shop-link" href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="grid-item section-speakers">
+            <img class="three-img-section" src="./images/jbl.png" alt="Speakers">
+            <div class="content-box">
+                <h2>Speakers</h2>
+                <p>Amazon wireless speakers.</p>
+                <a class="shop-link" href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="grid-item section-perfume">
+            <img class="three-img-section" src="./images/parfume.png" alt="Perfume">
+            <div class="content-box">
+                <h2>Perfume</h2>
+                <p>GUCCI INTENSE OUD EDP.</p>
+                <a class="shop-link" href="#">Shop Now</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -267,7 +350,7 @@
       <div class="footer-section">
         <h3>Support</h3>
         <p>111 Bijoy sarani, Dhaka, <br />DH 1515, Bangladesh.</p>
-        <p><a href="mailto:exclusive@gmail.com">exclusive@gmail.com</a></p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox">exclusive@gmail.com</a></p>
         <p>+88015-88888-9999</p>
       </div>
   
@@ -302,10 +385,10 @@
         </div>
    
         <div class="social-icons">
-          <a href=""><i class="fab fa-facebook"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="facebook"></i></a>
+          <a href=""><i class="twitter"></i></a>
+          <a href=""><i class="instagram"></i></a>
+          <a href=""><i class="linkedin"></i></a>
         </div>
       </div>
     </div>
